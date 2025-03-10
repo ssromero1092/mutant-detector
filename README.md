@@ -1,27 +1,64 @@
-# MutantDetector
+# Detector de Mutantes 🧬
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión **16.1.4**.
 
-## Development server
+## Descripción del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El **Detector de Mutantes** es una aplicación web desarrollada en Angular que permite verificar si una secuencia de ADN pertenece a un mutante. El programa analiza una matriz de ADN (NxN) y determina si existe más de una secuencia de cuatro letras iguales de forma **horizontal**, **vertical** o **diagonal**.
 
-## Code scaffolding
+### ¿Qué es un mutante?
+Un humano es considerado mutante si en su secuencia de ADN se encuentra más de una secuencia de cuatro letras iguales (`A`, `T`, `C`, `G`) en cualquier dirección (horizontal, vertical o diagonal).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Requisitos Previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (v16 o superior)
+- [Angular CLI](https://angular.io/cli) (v16 o superior)
+- Git (opcional, para clonar el repositorio)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Instalación y Ejecución
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 1. Clona el repositorio
+Si no has clonado el repositorio, ejecuta el siguiente comando:
 
-## Further help
+```bash
+git clone https://github.com/ssromero1092/mutant-detector.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 2. Navega a la carpeta del proyecto
+Una vez clonado el repositorio, ingresa a la carpeta del proyecto:
+
+```bash
+cd mutant-detector
+```
+
+### 3. Instala las dependencias
+Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+
+```bash
+npm install
+```
+
+### 4. Inicia el servidor de desarrollo
+Para levantar el servidor de desarrollo, ejecuta:
+
+```bash
+ng serve
+```
+
+### 5. Accede a la aplicación
+Abre tu navegador y visita la siguiente URL para ver la aplicación en funcionamiento:
+
+```bash
+http://localhost:4200/
+```
+
+### Notas adicionales:
+Asegúrate de tener Node.js y Angular CLI instalados en tu sistema antes de ejecutar estos comandos.
+
+Si encuentras algún problema durante la instalación, revisa que todas las dependencias estén correctamente instaladas.
