@@ -100,7 +100,7 @@ export class MutantCheckerComponent {
   }
 
   showResult() {
-    const message = this.result ? '¡Es un mutante!' : 'No es un mutante.';
+    const message = this.result ? '¡Eres un mutante!' : 'No eres un mutante.';
     this.snackBar.open(message, 'Cerrar', {
       duration: 3000,
       panelClass: this.result ? 'mutant-snackbar' : 'not-mutant-snackbar'
